@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 256 256">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#FF7B93"/>
+      <stop offset="1" stop-color="#9E0F3C"/>
+    </linearGradient>
+    <radialGradient id="haze" cx="0.32" cy="0.22" r="0.85">
+      <stop offset="0" stop-color="#FFFFFF" stop-opacity="0.32"/>
+      <stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="dots" width="14" height="14" patternUnits="userSpaceOnUse" patternTransform="rotate(20)">
+      <circle cx="4" cy="4" r="2.6" fill="#FFFFFF" opacity="0.22"/>
+    </pattern>
+    <clipPath id="clip"><rect width="256" height="256" rx="60"/></clipPath>
+    <filter id="shadow" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="6" stdDeviation="8" flood-color="#000000" flood-opacity="0.35"/>
+    </filter>
+    <filter id="pop" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="3" stdDeviation="3" flood-color="#000000" flood-opacity="0.25"/>
+    </filter>
+  </defs>
+  <g clip-path="url(#clip)">
+    <rect width="256" height="256" fill="url(#bg)"/>
+    <rect width="256" height="256" fill="url(#dots)"/>
+    <path d="M224.0 118.0L338.0 118.0L337.1 137.8Z" fill="#FFFFFF" opacity="0.16"/><path d="M221.6 139.4L332.7 164.7L327.4 183.8Z" fill="#FFFFFF" opacity="0.16"/><path d="M214.5 159.7L317.2 209.1L307.8 226.5Z" fill="#FFFFFF" opacity="0.16"/><path d="M203.1 177.9L292.2 248.9L279.1 263.8Z" fill="#FFFFFF" opacity="0.16"/><path d="M187.9 193.1L258.9 282.2L242.9 293.8Z" fill="#FFFFFF" opacity="0.16"/><path d="M169.7 204.5L219.1 307.2L200.9 314.9Z" fill="#FFFFFF" opacity="0.16"/><path d="M149.4 211.6L174.7 322.7L155.3 326.2Z" fill="#FFFFFF" opacity="0.16"/><path d="M128.0 214.0L128.0 328.0L108.2 327.1Z" fill="#FFFFFF" opacity="0.16"/><path d="M106.6 211.6L81.3 322.7L62.2 317.4Z" fill="#FFFFFF" opacity="0.16"/><path d="M86.3 204.5L36.9 307.2L19.5 297.8Z" fill="#FFFFFF" opacity="0.16"/><path d="M68.1 193.1L-2.9 282.2L-17.8 269.1Z" fill="#FFFFFF" opacity="0.16"/><path d="M52.9 177.9L-36.2 248.9L-47.8 232.9Z" fill="#FFFFFF" opacity="0.16"/><path d="M41.5 159.7L-61.2 209.1L-68.9 190.9Z" fill="#FFFFFF" opacity="0.16"/><path d="M34.4 139.4L-76.7 164.7L-80.2 145.3Z" fill="#FFFFFF" opacity="0.16"/><path d="M32.0 118.0L-82.0 118.0L-81.1 98.2Z" fill="#FFFFFF" opacity="0.16"/><path d="M34.4 96.6L-76.7 71.3L-71.4 52.2Z" fill="#FFFFFF" opacity="0.16"/><path d="M41.5 76.3L-61.2 26.9L-51.8 9.5Z" fill="#FFFFFF" opacity="0.16"/><path d="M52.9 58.1L-36.2 -12.9L-23.1 -27.8Z" fill="#FFFFFF" opacity="0.16"/><path d="M68.1 42.9L-2.9 -46.2L13.1 -57.8Z" fill="#FFFFFF" opacity="0.16"/><path d="M86.3 31.5L36.9 -71.2L55.1 -78.9Z" fill="#FFFFFF" opacity="0.16"/><path d="M106.6 24.4L81.3 -86.7L100.7 -90.2Z" fill="#FFFFFF" opacity="0.16"/><path d="M128.0 22.0L128.0 -92.0L147.8 -91.1Z" fill="#FFFFFF" opacity="0.16"/><path d="M149.4 24.4L174.7 -86.7L193.8 -81.4Z" fill="#FFFFFF" opacity="0.16"/><path d="M169.7 31.5L219.1 -71.2L236.5 -61.8Z" fill="#FFFFFF" opacity="0.16"/><path d="M187.9 42.9L258.9 -46.2L273.8 -33.1Z" fill="#FFFFFF" opacity="0.16"/><path d="M203.1 58.1L292.2 -12.9L303.8 3.1Z" fill="#FFFFFF" opacity="0.16"/><path d="M214.5 76.3L317.2 26.9L324.9 45.1Z" fill="#FFFFFF" opacity="0.16"/><path d="M221.6 96.6L332.7 71.3L336.2 90.7Z" fill="#FFFFFF" opacity="0.16"/>
+    <rect width="256" height="256" fill="url(#haze)"/>
+    <g filter="url(#shadow)" transform="rotate(-6 128 118)">
+      <image href="data:image/svg+xml;base64,PHN2ZyBpZD0iZW1vamkiIHZpZXdCb3g9IjAgMCA3MiA3MiIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KICA8ZyBpZD0iY29sb3IiPgogICAgPGNpcmNsZSBjeD0iMzYiIGN5PSIzNiIgcj0iMjgiIGZpbGw9IiM5MkQzRjUiIHN0cm9rZT0ibm9uZSIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIiBzdHJva2UtbWl0ZXJsaW1pdD0iMTAiIHN0cm9rZS13aWR0aD0iMiIvPgogIDwvZz4KICA8ZyBpZD0iaGFpciIvPgogIDxnIGlkPSJza2luIi8+CiAgPGcgaWQ9InNraW4tc2hhZG93Ii8+CiAgPGcgaWQ9ImxpbmUiPgogICAgPGNpcmNsZSBjeD0iMzYiIGN5PSIzNiIgcj0iMjgiIGZpbGw9Im5vbmUiIHN0cm9rZT0iIzAwMDAwMCIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIiBzdHJva2UtbWl0ZXJsaW1pdD0iMTAiIHN0cm9rZS13aWR0aD0iMiIvPgogICAgPHBhdGggZmlsbD0ibm9uZSIgc3Ryb2tlPSIjMDAwMDAwIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiIHN0cm9rZS1taXRlcmxpbWl0PSIxMCIgc3Ryb2tlLXdpZHRoPSIyIiBkPSJNMzYsOHY1NmMtOC41NjA0LDAtMTUuNS0xMi41MzYtMTUuNS0yOFMyNy40Mzk2LDgsMzYsOGM4LjU2MDQsMCwxNS41LDEyLjUzNiwxNS41LDI4UzQ0LjU2MDQsNjQsMzYsNjQiLz4KICAgIDxsaW5lIHgxPSI2NCIgeDI9IjgiIHkxPSIzNiIgeTI9IjM2IiBmaWxsPSJub25lIiBzdHJva2U9IiMwMDAwMDAiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIgc3Ryb2tlLW1pdGVybGltaXQ9IjEwIiBzdHJva2Utd2lkdGg9IjIiLz4KICAgIDxsaW5lIHgxPSI2MCIgeDI9IjEyIiB5MT0iMjIiIHkyPSIyMiIgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjMDAwMDAwIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiIHN0cm9rZS1taXRlcmxpbWl0PSIxMCIgc3Ryb2tlLXdpZHRoPSIyIi8+CiAgICA8bGluZSB4MT0iNjAiIHgyPSIxMiIgeTE9IjUwIiB5Mj0iNTAiIGZpbGw9Im5vbmUiIHN0cm9rZT0iIzAwMDAwMCIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIiBzdHJva2UtbWl0ZXJsaW1pdD0iMTAiIHN0cm9rZS13aWR0aD0iMiIvPgogIDwvZz4KPC9zdmc+Cg==" x="32" y="22" width="192" height="192"
+             preserveAspectRatio="xMidYMid meet"/>
+    </g>
+    <g filter="url(#pop)">
+      <circle cx="202" cy="202" r="37" fill="#FFF0F4" stroke="#20242E" stroke-width="5.5"/>
+    </g>
+    <text x="202" y="221" text-anchor="middle" font-family="Microsoft YaHei, PingFang SC, sans-serif"
+          font-size="47" font-weight="800" fill="#20242E">研</text>
+    <rect x="7" y="7" width="242" height="242" rx="55" fill="none" stroke="#FFFFFF" stroke-opacity="0.34" stroke-width="3"/>
+  </g>
+</svg>

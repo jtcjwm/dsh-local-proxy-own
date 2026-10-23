@@ -1,0 +1,9 @@
+node_modules/
+.cache/
+*.log
+.DS_Store
+# 代理节点是凭据，绝不入库
+nodes.txt
+nodes-foxlink.txt
+nodes*.txt
+*.dmp

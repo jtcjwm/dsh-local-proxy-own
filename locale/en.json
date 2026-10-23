@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Local Proxy · Self-built",
+    "description": "Local proxy core: latency-raced node pool, hot reload on a fixed port when the node file changes, domain-based split routing and PAC generation, loopback-only. Leaves the Windows system proxy alone by default and restores its exact pre-start state on stop."
+  }
+}

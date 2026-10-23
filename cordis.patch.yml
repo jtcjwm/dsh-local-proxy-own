@@ -1,0 +1,19 @@
+# dsh-local-proxy-own bundle patch: inserts the plugin row into the profile roster.
+#
+# The node half (src/index.js) registers seven local_proxy_* tools and the
+# /dsh-local-proxy-own/* loopback routes; the browser half (exports "./client")
+# renders the switch card in the plugin page (slot plugins.row.config).
+#
+# `inject` is mandatory, not decoration: cordis starts a plugin only after every
+# service listed there exists, and that ordering is what makes ctx.get('tools')
+# and ctx.get('webServer') return real services inside apply(). Omit it and the
+# module still loads without error while registering zero tools and zero routes
+# (observed 2026-10-21: /dsh-local-proxy-own/status returned 404 while dsh-meme's
+# /dsh-memes-api returned 200 on the same port).
+- id: dsh-local-proxy-own
+  inject: [tools, webServer]
+
+- insert:
+    - id: dsh-local-proxy-own
+      name: 'dsh-local-proxy-own'
+      inject: [tools, webServer]

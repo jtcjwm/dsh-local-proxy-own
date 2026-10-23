@@ -1,0 +1,52 @@
+{
+  "name": "dsh-local-proxy",
+  "version": "0.2.0",
+  "description": "Local proxy core for DeepSeek Harness: loopback-only SOCKS5+HTTP funnel, self-contained sing-box node pool (URI parsing, live latency racing, hot reload on a fixed port, split routing), PAC generation and per-process proxy injection. System proxy is only touched on explicit request and restored to its exact pre-start state on stop.",
+  "type": "module",
+  "main": "src/index.js",
+  "exports": {
+    ".": "./src/index.js",
+    "./client": "./src/client.js",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "src",
+    "bin",
+    "scripts",
+    "cordis.patch.yml",
+    "README.md"
+  ],
+  "keywords": [
+    "deepseek-harness",
+    "dsh",
+    "dsh-plugin",
+    "hysteria2",
+    "local",
+    "node-pool",
+    "pac",
+    "proxy",
+    "sing-box",
+    "socks5",
+    "split-routing",
+    "vmess"
+  ],
+  "license": "MIT",
+  "engines": {
+    "node": ">=22"
+  },
+  "peerDependencies": {
+    "react": "^18.2.0"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "inject": [
+        "@deepseek-ai/dsh-client-runtime",
+        "@deepseek-ai/dsh-client-ui-plugin-manager"
+      ],
+      "platform": "web"
+    }
+  }
+}

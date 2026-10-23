@@ -1,0 +1,17 @@
+{
+  "port": 7899,
+  "upstream": "socks5://127.0.0.1:18999",
+  "systemProxy": false,
+  "wireDsh": false,
+  "logDir": "D:\\DSH\\dsh-搜索\\flywheel-re\\plugin-logs",
+  "nodes": "",
+  "mode": "race",
+  "split": "all",
+  "top": 0,
+  "reprobeMin": 0,
+  "subUrl": "",
+  "subRefreshMin": 0,
+  "urltestInterval": "30s",
+  "urltestTolerance": 50,
+  "autoStart": false
+}

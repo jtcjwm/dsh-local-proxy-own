@@ -1,0 +1,11 @@
+{
+  "at": "2026-10-23T13:45:30.705Z",
+  "action": "swept",
+  "survivors": {
+    "watcher": null,
+    "core": null,
+    "proxy": null
+  },
+  "restored": null,
+  "autoStart": null
+}
