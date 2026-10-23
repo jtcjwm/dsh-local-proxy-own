@@ -9,3 +9,6 @@ nodes.txt
 nodes-foxlink.txt
 nodes*.txt
 *.dmp
+# 内核是第三方二进制（32.7MB），不放仓库；用户自备或用 kit 里的
+bin/sing-box.exe
+*.exe
