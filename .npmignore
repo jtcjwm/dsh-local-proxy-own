@@ -1,9 +1,5 @@
-# 内核是第三方二进制（34MB），不发 npm；用户自备或用 kit 里的
-bin/sing-box.exe
-*.exe
-# 代理节点是凭据，绝不发包
+# 代理节点是凭据，绝不发包（内核 bin/sing-box.exe 保留：别人装完必须能直接跑）
 nodes*.txt
-# 运行时产物与调试残留
 .runtime/
 *.bak-*
 *.log

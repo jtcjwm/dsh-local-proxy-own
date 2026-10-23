@@ -26,13 +26,15 @@
   },
   "files": [
     "src",
-    "bin/*.js",
+    "bin",
     "scripts",
     "cordis.patch.yml",
     "README.md",
     "icon.png",
     "icon.svg",
-    "locale"
+    "locale",
+    "LICENSE",
+    "THIRD_PARTY_NOTICES.md"
   ],
   "dsh": {
     "bundle": {
