@@ -1,7 +1,9 @@
 node_modules/
 .cache/
+.runtime/
 *.log
 .DS_Store
+*.bak-*
 # 代理节点是凭据，绝不入库
 nodes.txt
 nodes-foxlink.txt
